@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "248008313013",
+    "firebase_url": "https://lostfound-58400-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "lostfound-58400",
+    "storage_bucket": "lostfound-58400.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248008313013:android:ed453374ad7e0be2f1d6fc",
+        "android_client_info": {
+          "package_name": "com.anas.lostfound"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEUMnSHR7NBfG1oFFnPntg-oXazBy4ngY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248008313013:android:bdd2e8dac1a0f438f1d6fc",
+        "android_client_info": {
+          "package_name": "com.anas.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEUMnSHR7NBfG1oFFnPntg-oXazBy4ngY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248008313013:android:d83033c17aec192ff1d6fc",
+        "android_client_info": {
+          "package_name": "com.unimib.LostFound"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEUMnSHR7NBfG1oFFnPntg-oXazBy4ngY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
