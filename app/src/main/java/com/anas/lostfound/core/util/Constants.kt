@@ -78,6 +78,7 @@ object ContentDescriptions {
     const val LOADING_INDICATOR = "Loading"
     const val SORTING_MENU = "Sorting Menu"
     const val CALL = "Call number"
+    const val PASSWORD = "Toggle password visibility"
 }
 
 
@@ -90,3 +91,5 @@ object CategoryConstants {
         "Art & Collectibles"
     )
 }
+
+const val API_KEY = ""

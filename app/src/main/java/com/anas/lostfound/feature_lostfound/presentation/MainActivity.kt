@@ -14,6 +14,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.anas.lostfound.core.util.API_KEY
 import com.anas.lostfound.feature_lostfound.presentation.lost_found_items.LostFoundScreen
 import com.anas.lostfound.feature_lostfound.presentation.new_found.FoundItemScreen
 import com.anas.lostfound.feature_lostfound.presentation.util.Screen
@@ -33,7 +34,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (!Places.isInitialized()) {
-            Places.initialize(applicationContext, "AIzaSyCFEWQtxW_yG1KyRqnZ85NFGDTQpRq-KXo")
+            Places.initialize(applicationContext, API_KEY)
             enableEdgeToEdge()
             setContent {
                 LostFoundTheme {

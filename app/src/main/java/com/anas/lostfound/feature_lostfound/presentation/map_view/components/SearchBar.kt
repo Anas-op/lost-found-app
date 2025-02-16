@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.anas.lostfound.core.util.API_KEY
 import com.anas.lostfound.core.util.ContentDescriptions
 import com.anas.lostfound.core.util.InputFormStrings
 import com.google.android.gms.maps.model.LatLng
@@ -85,7 +86,7 @@ fun SearchBar(
 
 private fun performGeocodeSearch(query: String, onPlaceSelected: (LatLng) -> Unit) {
     val apiContext = GeoApiContext.Builder()
-        .apiKey("AIzaSyCFEWQtxW_yG1KyRqnZ85NFGDTQpRq-KXo") // Inserisci la tua chiave API di Google
+        .apiKey(API_KEY) // Inserisci la tua chiave API di Google
         .build()
 
     // Avvia la ricerca tramite il servizio di Geocoding

@@ -1,4 +1,4 @@
-package com.anas.lostfound.feature_lostfound.presentation.map_view
+package com.anas.lostfound.core.util
 
 import android.content.Context
 import android.content.pm.PackageManager

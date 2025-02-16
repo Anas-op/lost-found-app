@@ -50,6 +50,7 @@ import com.anas.lostfound.core.util.InputFormStrings
 import com.anas.lostfound.feature_lostfound.presentation.map_view.MapViewModel
 import com.anas.lostfound.feature_lostfound.presentation.new_found.FoundItemEvent
 import com.anas.lostfound.feature_lostfound.presentation.new_found.FoundItemViewModel
+import com.anas.lostfound.feature_lostfound.presentation.new_lost.LostItemEvent
 import com.google.android.gms.maps.model.LatLng
 
 @Composable
@@ -210,6 +211,29 @@ fun FoundItemForm(viewModel: FoundItemViewModel, mapViewModel: MapViewModel, isO
                         ),
                     readOnly = readOnly,
                     keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
+                    )
+            }
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(InputFormStrings.EMAIL)
+                CustomInputTextField(
+                    value = email,
+                    onValueChange = {
+                        email = it
+                        viewModel.onEvent(FoundItemEvent.EnteredEmail(it)) },
+                    modifier = Modifier
+                        .padding(10.dp)
+                        .fillMaxWidth()
+                        .background(
+                            color = Color.LightGray.copy(alpha = 0.3f),
+                            RoundedCornerShape(10.dp)
+                        ),
+                    readOnly = readOnly,
+
                     )
             }
 

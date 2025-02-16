@@ -1,4 +1,4 @@
-package com.anas.lostfound.feature_lostfound.presentation.map_view.components
+package com.anas.lostfound.feature_lostfound.presentation.map_view
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Box

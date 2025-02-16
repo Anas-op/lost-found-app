@@ -89,7 +89,10 @@ fun LostFoundScreen(
 
     LaunchedEffect(authState.value) {
         when (authState.value) {
-            is AuthState.Unauthenticated -> navController.navigate("login")
+            is AuthState.Unauthenticated ->
+                navController.navigate("login"){
+                    popUpTo(0) { inclusive = true }
+                }
             else -> Unit
         }
     }

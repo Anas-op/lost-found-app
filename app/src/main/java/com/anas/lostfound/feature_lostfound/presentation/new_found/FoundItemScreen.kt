@@ -23,19 +23,16 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Call
 import androidx.compose.material.icons.filled.Save
 import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SnackbarHost
@@ -56,7 +53,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
@@ -65,7 +61,7 @@ import com.anas.lostfound.core.util.ButtonStrings
 import com.anas.lostfound.core.util.ContentDescriptions
 import com.anas.lostfound.core.util.NewUpdateStrings
 import com.anas.lostfound.feature_lostfound.presentation.map_view.MapViewModel
-import com.anas.lostfound.feature_lostfound.presentation.map_view.components.MapBox
+import com.anas.lostfound.feature_lostfound.presentation.map_view.MapBox
 import com.anas.lostfound.feature_lostfound.presentation.map_view.components.SearchBar
 import com.anas.lostfound.feature_lostfound.presentation.new_found.components.FoundItemForm
 import com.google.android.gms.maps.model.LatLng

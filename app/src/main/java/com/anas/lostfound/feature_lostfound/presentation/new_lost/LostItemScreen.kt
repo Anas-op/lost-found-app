@@ -39,13 +39,10 @@ import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.SnackbarResult
 import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBarDefaults
-import androidx.compose.material3.rememberTopAppBarState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
@@ -61,10 +58,9 @@ import com.anas.lostfound.core.util.ButtonStrings
 import com.anas.lostfound.core.util.ContentDescriptions
 import com.anas.lostfound.core.util.NewUpdateStrings
 import com.anas.lostfound.feature_lostfound.presentation.map_view.MapViewModel
-import com.anas.lostfound.feature_lostfound.presentation.map_view.components.MapBox
+import com.anas.lostfound.feature_lostfound.presentation.map_view.MapBox
 import com.anas.lostfound.feature_lostfound.presentation.map_view.components.SearchBar
 import com.anas.lostfound.feature_lostfound.presentation.new_lost.components.LostItemForm
-import com.google.android.gms.maps.model.LatLng
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
